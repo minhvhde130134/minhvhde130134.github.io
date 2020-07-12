@@ -1,0 +1,48 @@
+nav{
+    position: absolute;
+    top: 5px;
+    left:  5px;
+    z-index: 1;
+}
+.hvh {
+    height: 100vh;
+}
+
+.bg-1 {
+    background-color: #3b4c9a;
+}
+
+.bg-2 {
+    background-color: #4257b2;
+}
+
+.trasition-1 {
+    transition-duration: 1s;
+}
+
+#order-1 {
+    order: 1;
+}
+
+#order-2 {
+    order: 2;
+}
+.btn-nav{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: plum !important;
+    padding: 0 !important;
+    position: absolute;
+}
+#bt-1,#bt-2{
+    transition-duration: 3s;
+}
+@media only screen and (max-height: 1080px) {
+    .hvh-1 {
+        height: 10%;
+    }
+    .hvh-2 {
+        height: 90%;
+    }
+}
